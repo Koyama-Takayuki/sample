@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
     background(220);
-    let x = frameCount%innerWidth;
-    let y = height/2 + setInterval(frameCount*0.1)*50;
+    let x = frameCount%width;
+    let y = height/2 + sin(frameCount*0.1)*50;
     ellipse(x, y, 20, 20);
 }
