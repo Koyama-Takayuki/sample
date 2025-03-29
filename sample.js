@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(framaCount%256);
     let x = frameCount%width;
     let y = height/2 + sin(frameCount*0.1)*50;
     ellipse(x, y, 20, 20);
