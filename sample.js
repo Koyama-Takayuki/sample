@@ -8,6 +8,6 @@ function draw() {
     let y = height/2 + sin(frameCount*0.1)*50;
     ellipse(x, y, 20, 20);
 
-    fill(200);
+    fill(100, 200, 200);
     ellipse(mouseX, mouseY, 40, 40);
 }
